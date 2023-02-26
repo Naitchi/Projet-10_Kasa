@@ -1,0 +1,41 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 87%;
+  height: 223px;
+  border-radius: 25px;
+
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner p {
+  font-weight: 500;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+#logement {
+  height: 415px;
+  background-color: unset;
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    width: 90%;
+    height: 111px;
+  }
+
+  .banner p {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  #logement {
+    height: 255px;
+  }
+}

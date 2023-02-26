@@ -1,0 +1,102 @@
+.logement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.box {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+    margin: 15px 0;
+}
+
+.innerBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    width: 50%;
+    gap: 24px;
+    color: #FF6060;
+}
+
+.empty {
+    color: #E3E3E3;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.hostName {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+
+}
+
+.host {
+    width: min-content;
+    text-align: end;
+}
+
+.user {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+}
+
+.stars {
+    display: flex;
+    gap: 10px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 36px;
+    color: #FF6060;
+    text-align: start;
+}
+
+.location {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.dropdowns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 76px;
+
+    width: 100%;
+}

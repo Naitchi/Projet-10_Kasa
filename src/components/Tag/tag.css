@@ -1,0 +1,12 @@
+.tag {
+  background: #ff6060;
+  border-radius: 10px;
+}
+
+.tag p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  margin: 5px 22px 3px 22px;
+}

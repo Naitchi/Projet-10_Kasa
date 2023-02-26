@@ -1,0 +1,22 @@
+.slider {
+    mix-blend-mode: normal;
+    height: 415px;
+    width: 96.1%;
+    border-radius: 25px;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    gap: 130px;
+}
+
+.slider .arrows {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

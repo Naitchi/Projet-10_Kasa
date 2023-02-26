@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+
+  padding: 20px 10% 0 10%;
+  width: 80%;
+  height: 130px;
+
+  background-color: #000;
+}
+
+footer p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  footer p {
+    font-size: 12px;
+  }
+}
