@@ -64,3 +64,44 @@
 .value {
     font-size: 24px !important;
 }
+
+@media screen and (max-width: 768px) {
+    .dropdown {
+        width: auto;
+    }
+
+    .dropdown .btn p {
+        font-size: 13px;
+    }
+
+    .dropdown .valueHeight {
+        height: 11px;
+    }
+
+    .dropdown .btn {
+        padding: 11px 5px 11px 5px;
+        font-size: 13px;
+        width: auto;
+        height: 11px;
+    }
+
+    .value {
+        font-size: 13px !important;
+    }
+
+    .dropdown .body {
+        width: auto;
+        gap: 17px;
+        padding: 23px 11px 4px 11px;
+    }
+
+    .dropdown .body li {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .dropdown .text {
+        font-size: 12px;
+        width: auto;
+    }
+}

@@ -10,3 +10,9 @@
   text-align: center;
   margin: 5px 22px 3px 22px;
 }
+
+@media screen and (max-width: 768px) {
+  .tag p {
+    font-size: 10px;
+  }
+}

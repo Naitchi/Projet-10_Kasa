@@ -52,6 +52,7 @@
     display: flex;
     gap: 10px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .hostName {
@@ -99,4 +100,51 @@
     gap: 76px;
 
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .innerBox {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .dropdowns {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .location {
+        font-size: 14px;
+    }
+
+    .host {
+        font-size: 12px;
+    }
+
+    .hostName {
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+    }
+
+    .stars {
+        height: 15px;
+        gap: 5px;
+    }
 }

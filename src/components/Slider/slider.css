@@ -20,3 +20,11 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+    .slider {
+        height: 180px;
+        gap: 40px;
+    }
+
+}
