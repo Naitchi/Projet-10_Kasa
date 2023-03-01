@@ -8,10 +8,16 @@ export default function Slider({ pictures }) {
     if (index !== pictures.length) {
       setIndex(index + 1);
     }
+    if (index === pictures.length) {
+      setIndex(1);
+    }
   }
   function previousSlide() {
     if (index !== 1) {
       setIndex(index - 1);
+    }
+    if (index === 1) {
+      setIndex(pictures.length);
     }
   }
 
