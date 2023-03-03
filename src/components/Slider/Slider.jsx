@@ -31,10 +31,12 @@ export default function Slider({ pictures }) {
       }}
       className="slider"
     >
-      <div className="arrows">
-        <i onClick={previousSlide} className="fas fa-3x fa-chevron-left"></i>
-        <i onClick={nextSlide} className="fas fa-3x fa-chevron-right"></i>
-      </div>
+      {pictures.length > 1 && (
+        <div className="arrows">
+          <i onClick={previousSlide} className="fas fa-3x fa-chevron-left"></i>
+          <i onClick={nextSlide} className="fas fa-3x fa-chevron-right"></i>
+        </div>
+      )}
       <p className="index">
         {index}/{pictures.length}
       </p>
